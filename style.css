@@ -23,59 +23,35 @@
 .tarif {
   /* Style for "Тариф мини" */
   /* width: 122px; */
+  display: inline-block;
   margin-top: 32px;
   margin-bottom: 32px;
-  height: 16px;
   color: #212121;
   font-family: "Museo Sans Cyrl -300";
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 20px;
   text-align: center;
   /* Text style for "Тариф мини" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
 .number {
   /* Style for "9 000" */
   margin-bottom: 32px;
-  width: 125px;
-  height: 36px;
   color: #5ba2a9;
   font-family: "Museo Sans Cyrl -500";
   font-size: 48px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 20px;
   text-align: center;
-  /* Text style for "9,  000" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
 .rub {
   /* Style for "руб." */
   margin-bottom: 32px;
-  width: 32px;
-  height: 17px;
   color: #5ba2a9;
   font-family: "Museo Sans Cyrl -300";
   font-size: 18px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 20px;
   text-align: center;
-  /* Text style for "руб." */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
 .text {
@@ -90,37 +66,27 @@
   font-family: "Museo Sans Cyrl -300";
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
   text-align: center;
-  /* Text style for "Шары 30 шт" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
 .btn {
-  width: 200px;
-  height: 54px;
+  padding: 21px 29px;
   margin-bottom: 32px;
   border: 2px solid #e8e8e8;
   background-color: #ffffff;
-}
-
-.btntxt {
-  width: 141px;
-  height: 12px;
   color: #5a5a5a;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  /* Text style for "З, аказать" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
 }
